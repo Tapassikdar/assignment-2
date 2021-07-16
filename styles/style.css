@@ -1,0 +1,140 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common style  */
+header{
+    width: 100%;
+    background-color: #2D25A0;
+    display: flex;
+}
+.left{
+    width: 50%;
+    
+}
+.left p{
+    color: white;
+    margin: 13% 5% 0% 15%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.watch{
+    height: 44px;
+    background: #E02C6D;
+    color: white;
+    width: 168px;
+    /* padding: 0px 20px 0px 20px; */
+    margin: 5% 0% 0% 16%;
+    border: none;
+}
+
+
+.right{
+    width: 50%;
+}
+.right img{
+    width: 556.01px;
+    height: 438px;
+}
+
+
+.players {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .empty{
+    width: 18%;
+  }
+  .middle{
+    width: 60%;
+    display: flex;
+  }
+
+  .card {
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    width: 33%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .card p{
+font-size: 16px;
+line-height: 26px;
+
+text-align: left;
+  }
+  .card h4{
+    margin: 10px 0px 5px 0px;
+  text-align: left;
+  }
+
+  .description{
+    width: 37%;
+    margin-top: 20px;
+    padding: 20px 30px 0px 0px;
+}
+.description h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 60px;
+color: #0A0826;
+}
+
+.description p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+  .match{
+      width: 40%;
+  }
+  .match img{
+    width: 80%;
+  }
+  .watch-now{
+    height: 44px;
+    background: #E02C6D;
+    color: white;
+    width: 168px;
+    margin:5% 0% 0% 0%;
+    border: none;
+  }
+
+  footer{
+      background-color: white;
+      text-align: center;
+  }
+
+  footer img{
+    width:30%;
+  }
+
+  .icon{
+    width: 32px;
+    height: 32px;
+    background: #E7E7E8;
+    color: #969BAB;
+    border-radius: 100%;
+    padding: 8px;
+  }
+
